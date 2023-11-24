@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32"  href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+      <title>Debit Card Design</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+
+  <div class="box">
+    <div class="mdl">
+    <div class="circles">
+      <div class="circle circle-1"></div>
+      <div class="circle circle-2"></div>
+    </div>
+      
+      <div class="card">
+
+        <form>
+          <div class="logo">
+            <img src="Paypal-logo.png">
+          </div>
+
+          <div class="card-number">
+            <label>Card Number</label>
+            <input id="card-number" placeholder="5045 0897 0000 0145" type="text" required maxlength="19">
+            <span class="underline"></span>
+
+          </div>
+          <br>
+          <div class="group">
+            <div class="card-name">
+              <label>Card Holder</label>
+              <input id="card-name" placeholder="ISAAC MITCHELL" type="text" required>
+              <span class="underline"></span>
+
+            </div>
+            <div class="expiration-date">
+              <label>Exp. Date</label>
+              <input id="card-exp" placeholder="05/28" type="text" maxlength="5" required>
+              <span class="underline"></span>
+
+            </div>
+            <div class="ccv">
+              <label>CCV</label>
+              <input id="card-ccv" placeholder="001" type="text" maxlength="3" required>
+              <span class="underline"></span>
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
